@@ -1,0 +1,9 @@
+safe: true
+server: false
+
+lsi: true
+pygments: true
+permalink: pretty
+
+source: .
+destination: ./_site
