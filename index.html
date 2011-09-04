@@ -2,4 +2,14 @@
 layout: default
 title: Home
 ---
-Coming soon!
+{% for post in site.posts %}
+<article>
+  <header>
+    <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+    <small>{{ post.date | date_to_string }}</small>
+  </header>
+  <div class="content">
+    {{ post.content }}
+  </div>
+</article>
+{% endfor %}
