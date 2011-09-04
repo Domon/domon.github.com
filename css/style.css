@@ -117,7 +117,8 @@ code, pre { font-family: Consolas, 'Lucida Console', 'Courier New', monospace, s
 
 #sidebar {
   float: right;
-  width: 250px;
+  margin: 10px;
+  width: 220px;
 }
 
 #articles > h1, #sidebar > h1 {
