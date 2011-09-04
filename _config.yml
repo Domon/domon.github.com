@@ -1,8 +1,10 @@
 safe: true
+auto: false
 server: false
 
 lsi: true
 pygments: true
+markdown: maruku
 permalink: pretty
 
 source: .
