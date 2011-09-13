@@ -95,6 +95,16 @@ a { text-decoration: none; }
 
 code, pre { font-family: Consolas, 'Lucida Console', 'Courier New', monospace, sans-serif; }
 
+h1 {
+  font-size: 140%;
+  line-height: 1.5em;
+}
+
+h2 {
+  font-size: 120%;
+  line-height: 1.5em;
+}
+
 #header, #main, #footer {
   margin: 0 auto;
   width: 1000px;
@@ -107,18 +117,19 @@ code, pre { font-family: Consolas, 'Lucida Console', 'Courier New', monospace, s
 
 #site-title a {
   font-family: 'Special Elite', cursive;
-  font-size: 250%;
+  font-size: 180%;
 }
 
 #articles {
   float: left;
-  width: 750px;
+  width: 660px;
 }
 
 #sidebar {
   float: right;
+  font-size: 90%;
   margin: 10px;
-  width: 220px;
+  width: 300px;
 }
 
 #articles > h1, #sidebar > h1 {
@@ -130,7 +141,7 @@ code, pre { font-family: Consolas, 'Lucida Console', 'Courier New', monospace, s
   padding-top: 20px;
 }
 
-.content p {
+p {
   margin: 1em 0 1em 0;
   line-height: 1.5em;
 }
