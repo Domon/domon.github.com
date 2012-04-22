@@ -148,6 +148,7 @@ a:hover { color: #036; }
 
 #nav a:hover {
   color: white;
+  text-shadow: #F1F1F1 0 0 1em;
   background-color: inherit;
 }
 
@@ -198,6 +199,14 @@ p {
   font-size: 1.076923em;
   line-height: 1.7em;
   margin: 0.5em 0 1.2em 0;
+}
+
+::-moz-selection {
+  background: #333;
+}
+
+::selection {
+  background: #333;
 }
 
 #comments h1 {
