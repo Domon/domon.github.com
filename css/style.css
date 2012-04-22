@@ -209,6 +209,31 @@ p {
   border-top: 0.5em solid #E5E5E5;
 }
 
+#archive {
+  padding-top: 2em;
+}
+
+#archive article {
+  margin: 1em 0 0 0;
+}
+
+#archive article header {
+  margin: 0;
+}
+
+#archive article header * {
+  position: relative;
+  float: left;
+}
+
+#archive article header .raquo {
+  margin: 0 1.5em 0 1em;
+}
+
+#archive article header h1 {
+  font-size: 1.5em;
+}
+
 @media only screen and (max-width: 1024px) {
   #site {
     width: 70%
