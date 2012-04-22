@@ -19,32 +19,34 @@
   <link rel="stylesheet" href="/css/style.css?v=2">
   <link rel="stylesheet" media="handheld" href="/css/handheld.css?v=2">
   <script src="/js/libs/modernizr-1.7.min.js"></script>
-
-  <link href="//fonts.googleapis.com/css?family=Special+Elite&amp;text=Domon" rel="stylesheet" type="text/css">
 </head>
 <body>
-  <header id="header">
-    <h1 id="site-title"><a href="/">Domon</a></h1>
-  </header>
+  <div id="site">
+    <header id="header">
+      <h1 id="logo"><a href="/">Domon</a></h1>
+    </header>
 
-  <div id="main" role="main">
-    <section id="articles">
-      <h1>Articles</h1>
-      {{ content }}
-    </section>
-    <aside id="sidebar" role="sidebar">
-      <h1>Sidebar</h1>
-      <section>
-        <h2>About</h2>
-        <p>Hi, I'm <strong>Chun-wei Kuo</strong>.</p>
-        <p>You can find some of my code on <a href="https://github.com/Domon">GitHub</a>.</p>
+    <nav id="nav" class="clearfix">
+      <header>
+        <h1>Site Navigation</h1>
+      </header>
+      <ul>
+        <li><a href="/archive">Home</a>
+        <li><a href="/archive">Archive</a>
+        <li><a href="/about">About</a>
+    </nav>
+
+    <div id="main" role="main">
+      <section id="articles">
+        <h1>Articles</h1>
+        {{ content }}
       </section>
-    </aside>
-  </div>
+    </div>
 
-  <footer id="footer">
-    Copyright &copy; 2011, Chun-wei Kuo. All rights reserved.
-  </footer>
+    <footer id="footer">
+      <p>Copyright &copy; 2012, Chun-wei Kuo. All rights reserved.</p>
+    </footer>
+  </div>
 
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
   <script>!window.jQuery && document.write(unescape('%3Cscript src="/js/libs/jquery-1.5.1.min.js"%3E%3C/script%3E'))</script>

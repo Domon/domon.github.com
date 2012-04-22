@@ -4,7 +4,7 @@ layout: default
 <article>
   <header>
     <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
-    <small>{{ page.date | date_to_string }}</small>
+    <small><time datetime="{{ page.date }}" pubdate>{{ page.date | date_to_string }}</time></small>
   </header>
   <div class="content">
     {{ content }}
