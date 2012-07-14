@@ -1,10 +1,19 @@
 ---
 layout: default
 ---
-<article>
+<article itemscope itemtype="http://schema.org/Article">
   <header>
-    <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
-    <small><time datetime="{{ page.date }}" pubdate>{{ page.date | date_to_string }}</time></small>
+    <h1 itemprop="name">
+      <a href="{{ page.url }}">{{ page.title }}</a>
+    </h1>
+    <small>
+      By
+      <a itemprop="author" href="https://plus.google.com/u/0/109800087957007174418?rel=author">Chun-wei Kuo</a>
+      on
+      <time itemprop="datePublished" datetime="{{ page.date }}" pubdate>
+        {{ page.date | date_to_string }}
+      </time>
+    </small>
   </header>
   <div class="content">
     {{ content }}
