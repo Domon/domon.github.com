@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A new design
+title: A New Design
 ---
 
 Yesterday I was kind of fed up with the upleasant design of my blog, and decided to do something about that.
