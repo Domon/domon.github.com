@@ -2,7 +2,7 @@ safe: true
 auto: false
 server: false
 
-lsi: true
+lsi: false
 pygments: true
 markdown: maruku
 permalink: pretty
