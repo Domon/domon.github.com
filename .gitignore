@@ -1,2 +1,8 @@
+# Bundler
+.bundle/
+
+# Jekyll
 _site/
+
+# Vim
 *.swp
