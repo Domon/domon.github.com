@@ -1,5 +1,10 @@
-Domon.cc
-========
+# Domon.cc
 
-http://domon.cc
+The source code of http://domon.cc.
+
+## Usage
+
+To start the server:
+
+    jekyll serve
 
