@@ -5,7 +5,7 @@ title: Shame Driven Development
 
 Several days ago, I saw a [code challenge][code_challenge] on [CodeIQ][code_iq].
 
-It challenges users to write a ruby program that mimics basic functionalities of the UNIX `cal` command.
+It challenges users to write a ruby program that mimics the basic functionalities of the UNIX `cal` command.
 Users are encouraged to not rely on `Date`, `Time`, `Datetime` or other libraries.
 Expected time of writing this program is 15 minutes.
 
@@ -24,12 +24,12 @@ Almost, if not every, programmer has written a `cal` or two in their early days 
 I should have written one in C in my first year of college.
 But, could I write a simple `cal` now, say, in 15 minutes? Without relying on any libraries?
 
-I pondered. Then a question flashed into my mind: how do I know if a year is a leap year or not?
+I pondered. Then a question flashed into my mind: How do I know if a year is a leap year or not?
 In elementary school, I was taught that there is a leap year every 4 years.
 Is it really as simple as that?
 
 As usual, Wikipedia has [the answer][leap_year].
-And there is some some psuedo code kindly listed:
+And there is some pseudo code kindly listed:
 
     if year modulo 400 is 0 then
        is_leap_year
@@ -66,15 +66,15 @@ At least the command told me so:
 
 Now, back to the title of this post.
 
-Actually, I have wrote [a stupid `cal`][dcal]. (Not in 15 minutes, sorry.)
-It takes month and year as the arguments, and outputs a calender similiar to `cal`.
+Actually, I have written [a stupid `cal`][dcal]. (Not in 15 minutes, sorry.)
+It takes month and year as the arguments, and outputs a calendar similar to `cal`.
 It does not take care of the years before 1970, and has no any other fancy features.
 
 Why do I bother putting a stupid program online?
 Because I am so shameful about it.
 And I feel that I have to accept it and do something to force me grow.
 
-By attacking problems continiously, I will learn and hopefully be able to write less shameful code.
+By attacking problems continuously, I will learn and hopefully be able to write less shameful code.
 
 
 [code_challenge]: https://codeiq.jp/ace/tsukada_shinnosuke/q129

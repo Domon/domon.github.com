@@ -9,7 +9,7 @@ Ever since reading "[Blogging Like a Hacker](http://tom.preston-werner.com/2008/
 
 I also considered [nanoc](http://nanoc.stoneship.org/), since it sounds so powerful. But I chose to learn the simpler [Jekyll](http://github.com/mojombo/jekyll) first.
 
-After setting up this site, I found the existence of [Octopress](http://octopress.org/), a helpful framework based on Jekyll. It features a semantic HTML5 template, Disqus Comments support, beautiful syntax highlightings, and many more. Using it would surely make the building process easier. I wish I could know this earlier, but I also learned a lot through building the site from the scratch.
+After setting up this site, I found the existence of [Octopress](http://octopress.org/), a helpful framework based on Jekyll. It features a semantic HTML5 template, Disqus Comments support, beautiful syntax highlightings, and many more. Using it would surely make the building process easier. I wish I could know this earlier, but I also learned a lot through building the site from scratch.
 
 There's still a lot more to do, but right now I'd like to call it a day.
 

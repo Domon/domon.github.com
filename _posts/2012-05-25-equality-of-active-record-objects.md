@@ -5,7 +5,7 @@ title: Equality of Active Record Objects
 
 There was once a caching problem in a project I am working on.
 
-The `hash` of some posts are used as cache keys. According to [the document](http://ruby-doc.org/core-1.9.3/Object.html#method-i-hash), I expect `Object#hash` will return different numbers if any attribute changes. But the cache just won't refresh.
+The `hash` of some posts is used as cache keys. According to [the document](http://ruby-doc.org/core-1.9.3/Object.html#method-i-hash), I expect `Object#hash` will return different numbers if any attribute changes. But the cache just won't refresh.
 
 To figure out that problem, let's start with two posts (in rails console):
 

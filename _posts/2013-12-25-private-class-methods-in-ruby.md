@@ -60,11 +60,11 @@ In Ruby, as many of us know, __classes are just objects__.
 When we define "class methods" on `Foo`, we are just defining methods on the __singleton class__ of the `Foo` object.
 
 
-`private` is not a special keyword in Ruby, it is just a method of `Module`. (Reminder: `Class.is_a? Module`.)
+`private` is not a special keyword in Ruby. It is just a method of `Module`. (Reminder: `Class.is_a? Module`.)
 
 When `private` gets called, it sets the visibility for subsequently methods __defined on the current object__ to private.
 To set the visibility of methods __defined on the singleton class of the current object__, we need another method, i.e. `Module#private_class_method`.
 
 
-p.s. The term "singleton class" referred in this post is also called "metaclass" or "eigenclass".
+P.S. The term "singleton class" referred in this post is also called "metaclass" or "eigenclass".
 

@@ -13,7 +13,7 @@ I was a little annoyed by such behavior of the [bc][] (basic calculator) program
 In fact, when hitting `Ctrl-C`, we are just sending a `SIGINT` [signal][] to the program.
 The program may [trap][] the signal and probably ignore it.
 
-To achive that in Ruby is simple:
+To achieve that in Ruby is simple:
 
     loop do
       input = gets.chomp
@@ -33,7 +33,7 @@ Some processes even wouldn't stop when we try to [kill][] it:
 
 In such cases, the `SIGTERM` signal sent by `kill` is trapped.
 
-We can force them to stop by sending the the `SIGKILL` signal, since it can not be caught:
+We can force them to stop by sending the the `SIGKILL` signal, since it cannot be caught:
 
     $ kill -s KILL <pid>
 
