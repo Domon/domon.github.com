@@ -3,7 +3,7 @@ auto: false
 server: false
 
 lsi: false
-pygments: true
+highlighter: pygments
 markdown: maruku
 permalink: pretty
 
