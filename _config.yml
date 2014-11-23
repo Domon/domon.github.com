@@ -1,6 +1,4 @@
 safe: true
-auto: false
-server: false
 
 lsi: false
 highlighter: pygments

@@ -6,5 +6,5 @@ The source code of http://domon.cc.
 
 To start the server:
 
-    jekyll serve
+    jekyll serve -w
 
