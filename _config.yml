@@ -2,7 +2,7 @@ safe: true
 
 lsi: false
 highlighter: pygments
-markdown: maruku
+markdown: redcarpet
 permalink: pretty
 
 source: .
