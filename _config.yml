@@ -1,8 +1,8 @@
 safe: true
 
 lsi: false
-highlighter: pygments
-markdown: redcarpet
+highlighter: rouge
+markdown: kramdown
 permalink: pretty
 
 source: .
