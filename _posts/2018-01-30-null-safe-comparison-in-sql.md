@@ -45,7 +45,7 @@ Wait... Isn't the answer **3** instead of 2?
 
 Actually, the result set returned by the query does not include the tag whose `tag_group_id` is `NULL`.
 
-This is because **in SQL, the equality between `NULL` and `NULL` is also `NULL`, instead of `FALSE` (`0`).**
+This is because **in SQL, the equality between `NULL` and anything else is `NULL`, instead of `TRUE` or `FALSE`.**
 
     SELECT        1 = 1,     -- 1
                NULL = NULL,  -- NULL
