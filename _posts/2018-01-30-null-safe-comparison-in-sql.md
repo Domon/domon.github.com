@@ -48,15 +48,15 @@ Actually, the result set returned by the query does not include the tag whose `t
 This is because **in SQL, the equality between `NULL` and anything else is `NULL`, instead of `TRUE` or `FALSE`.**
 
     SELECT        1 = 1,     -- 1
-               NULL = NULL,  -- NULL
-                  1 = NULL,  -- NULL
+               NULL = NULL,  -- NULL (!)
+                  1 = NULL,  -- NULL (!)
            NOT(   1 = 1),    -- 0
            NOT(NULL = NULL), -- NULL (!)
            NOT(   1 = NULL), -- NULL (!)
 
 Fortunately, there are so-called **null-safe operators** which can perform equality comparison in a way that is common in many other programming languages.
 
-In MySQL, we can use `<=>`.
+In MySQL, `<=>` is a null-safe operator for equality.
 
     SELECT        1 <=> 1,     -- 1
                NULL <=> NULL,  -- 1
@@ -65,7 +65,7 @@ In MySQL, we can use `<=>`.
            NOT(NULL <=> NULL), -- 0
            NOT(   1 <=> NULL); -- 1
 
-PostgreSQL provides `IS DISTINCT FROM` and we can use the `IS` operator in SQLite.
+PostgreSQL provides `IS DISTINCT FROM` and `IS` is the counterpart in SQLite.
 
 
 Finally, I have written this down. I hope this post can save me a few Google searches in the future. 💦
