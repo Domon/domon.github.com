@@ -3,8 +3,8 @@ layout: post
 title: Private Class Methods in Ruby
 ---
 
-To make a class method private, the intuitive way is to put a `private`
-"keyword" (more on this later) before the method definition like the following.
+To make a class method private, the intuitive way is to put `private`
+before the method definition like the following.
 
     class Foo
 
@@ -57,6 +57,7 @@ which is another way to make a class method private.
       end
     end
 
+
 In Ruby, as we know, __classes are just objects__.
 When we define a "class method" on `Foo`, we are just defining an
 __instance method__ on the __singleton class__ of the `Foo` object.
@@ -64,11 +65,13 @@ __instance method__ on the __singleton class__ of the `Foo` object.
     pry(main)> Foo.singleton_class.private_instance_methods(false)
     => [:bar]
 
-And, in fact, `private` is not a special keyword in Ruby. It is just a method on
+
+In fact, `private` is not a special keyword in Ruby. It is just a method on
 `Module`. It is also available on `Class` because `Class.is_a? Module`.
 
 When `private` gets called, it sets the visibility for subsequently methods
 __defined on the current object__ to private.
+
 
 To set the visibility of methods __defined on the singleton class of the current
 object__, we need another method. That is where `Module#private_class_method` comes in.
