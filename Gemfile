@@ -4,4 +4,4 @@ source 'https://rubygems.org/'
 
 ruby IO.read('.ruby-version').strip
 
-gem 'github-pages', '~> 182'
+gem 'github-pages', '~> 198'
