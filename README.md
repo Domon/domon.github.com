@@ -1,6 +1,6 @@
 # Domon.cc
 
-The source code of http://domon.cc.
+The source code of https://domon.cc.
 
 ## Usage
 
