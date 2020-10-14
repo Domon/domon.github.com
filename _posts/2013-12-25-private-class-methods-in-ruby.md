@@ -84,7 +84,7 @@ the current object__, we need another method.
 That is where `Module#private_class_method` comes in.
 
 
-To summarize, there are two style of syntax to create a private class method
+To summarize, there are two styles of syntax to create a private class method
 `bar` on a class `Foo`.
 
 1. Define the method with the syntax `def self.bar` and then `private_class_method :bar` to make it private.
